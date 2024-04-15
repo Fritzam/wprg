@@ -1,0 +1,12 @@
+.block {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+input {
+    float: right;
+}
+select {
+    float: right;
+}

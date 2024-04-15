@@ -1,0 +1,11 @@
+.div {
+    display: inline-block;
+}
+.field {
+    display:block;
+    margin-bottom: 5px;
+}
+
+.value_field {
+    width: 50px;
+}

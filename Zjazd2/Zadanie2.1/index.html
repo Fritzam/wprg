@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="div">
+    <form name="Formularz testowy" action="backend.php" method="get">
+        <fieldset>
+            <legend>Kalkulator PHP</legend>
+            <input type="number" placeholder="wartość1" class="value_field" name="wartosc1" min="0" step="0.01">
+            <select name="znak">
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="*">*</option>
+                <option value="/">/</option>
+            </select>
+            <input type="number" placeholder="wartosc2" class="value_field" name="wartosc2" min="0" step="0.01">
+            <input type="submit" value="wynik">
+        </fieldset>
+    </form>
+</div>
+</body>
+</html>
