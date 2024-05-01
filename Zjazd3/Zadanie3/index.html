@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Zadanie3</title>
+</head>
+<body>
+<form method="get" action="backend.php">
+    <fieldset style="display: inline-block">
+        <legend>Operacje na folderach</legend>
+        <label for="sciezka">
+            <input type="text" placeholder="wprowadź ścieżkę" id="sciezka" name="sciezka">
+        </label>
+        <label for="folder">
+            <input type="text" placeholder="wybierz folder" id="folder" name="folder">
+        </label>
+        <label for="operacja">
+            <select name="operacja" id="operacja">
+                <option>Read</option>
+                <option>Delete</option>
+                <option>Create</option>
+            </select>
+        </label>
+        <button>Submit</button>
+    </fieldset>
+</form>
+</body>
+</html>
