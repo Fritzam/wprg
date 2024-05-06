@@ -1,0 +1,10 @@
+http://www.bbc.com/;Międzynarodowe wiadomości i rozrywka.
+http://www.etsy.com/;Rękodzieło i przedmioty vintage.
+http://www.khanacademy.org/;Darmowe zasoby edukacyjne.
+http://www.imgur.com/;Udostępnianie i hosting obrazów.
+http://www.reddit.com/;Agregacja wiadomości społecznościowych i dyskusje.
+http://www.medium.com/;Platforma do publikowania artykułów.
+http://www.twitch.tv/;Platforma do streamingu na żywo dla graczy.
+http://www.spotify.com/;Strumieniowanie muzyki i podcastów.
+http://www.github.com/;Hosting dla rozwoju oprogramowania.
+http://www.canva.com/;Narzędzia i szablony do projektowania graficznego.
