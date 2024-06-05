@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+    <form action='final.php' method='post'>
+     <fieldset style='display: inline-block'>
+         <legend>Formularz rezerwacyjny</legend>
+         <div style='display: inline-flex; gap: 5px; margin-bottom: 10px'>
+             <fieldset class='block'>
+                 <legend>Rezerwujący</legend>
+                 <label for='name'>Imie:
+                     <input type='text' name='name' id='name' required>
+                     </label>
+                 <label for='surname'>Nazwisko:
+                     <input type='text' name='surname' id='surname' required>
+                     </label>
+                 <label for='email'>Adres email:
+                     <input type='email' name='email' id='email' required>
+                     </label>
+                 <label for='cardID'>Numer karty:
+                     <input type='text' name='cardID' id='cardID' minlength='15' maxlength='16' required>
+                     </label>
+                 <label for='cardExpDate'>Termin wygaśnięcia:
+                     <input type='date' name='cardExpDate' id='cardExpDate' required>
+                     </label>
+                 <label for='CVV'>Kod CVV:
+                     <input type='number' name='CVV' id='CVV' min='100' max='999' required>
+                     </label>
+                 <label for='arrival'>Data zakwaterowania:
+                     <input type='datetime-local' name='arrival' id='arrival' required>
+                     </label>
+                 <label for='departure'>Data wykwaterowania:
+                     <input type='datetime-local' name='departure' id='departure' required>
+                     </label>
+                 <label>Klimatyzacja
+                     <input type='checkbox' name='dodatki[]' value='Klimatyzacja'>
+                     </label>
+                 <label>Popielniczka dla palaczy
+                     <input type='checkbox' name='dodatki[]' value='Popielniczka'>
+                     </label>
+                 <label>Zimne napoje w lodówce
+                     <input type='checkbox' name='dodatki[]' value='Zimne napoje'>
+                     </label>
+                 <label>Sprzątanie pokoju
+                     <input type='checkbox' name='dodatki[]' value='Usługa sprzątania'>
+                     </label>
+                 <label>Łóżeczko dla dziecka
+                     <input type='checkbox' name='dodatki[]' value='Łóżeczko dziecięce'>
+                     </label>
+             </fieldset>
+         </div>
+     </fieldset>
+    </form>
+    <form class="form" action="backend.php" method="post">
+        <fieldset style="display: inline-block">
+            <legend>Liczba gości</legend>
+             <label for='guests' style="display: block">Goście:
+                 <select name="select" id="guests">
+                     <option>1</option>
+                     <option>2</option>
+                     <option>3</option>
+                     <option>4</option>
+                 </select>
+             </label>
+            <button type="submit" style="display: inline-block; margin-top: 10px; width: 100%;">Wyślij</button>
+        </fieldset>
+    </form>
+</body>
+</html>
