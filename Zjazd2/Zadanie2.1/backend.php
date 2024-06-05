@@ -46,7 +46,7 @@ function division($first_value, $second_value) {
     return $first_value / $second_value;
 }
 
-function check0InDivision($first_value, $second_value, $znak): bool
+function check0InDivision($first_value, $second_value, $znak)
 {
     if ($znak == '/') {
         if (floatval($first_value) == 0 || floatval($second_value) == 0) {
